@@ -139,6 +139,13 @@
   font-size:  1.4rem;
 }
 
+.contact-email a{
+  color: black;
+}
+
+.contact-email a:hover{
+}
+
 .project-list a{
   color: #a00;
 }

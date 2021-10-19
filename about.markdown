@@ -36,6 +36,8 @@ permalink: /about/
 <div class="about-section contact">
 	<p class="section-heading">Contact</p>
 	<div>
-		<p class="contact-email">{{ site.email }}</p>
+		<p class="contact-email">
+			<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+		</p>
 	</div>
 </div>
