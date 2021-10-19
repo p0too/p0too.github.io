@@ -1,0 +1,149 @@
+.home-page{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /*
+  justify-content: center;
+  */
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+  margin: 4em 0 0 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: white;
+  color: black;
+  font-family: "Helvetica", sans-serif;
+  text-align:  center;
+}
+.profile-img {
+  display: block;
+  border-radius:  50%;
+
+  max-width: 100%;
+  height:  auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem;
+}
+::selection {
+  color: white;
+  background: black;
+  /*
+  background: #48A5AB;
+  */
+}
+
+.a-link {
+  margin: 0 0.8rem 0 0.8rem;
+  font-family: "Courier New", monospace, sans-serif;
+}
+
+.home-page a{
+  color: #a00;
+}
+.home-page a:hover{
+  color: #f00;
+  text-decoration: none;
+}
+
+.about {
+  text-align: center;
+}
+
+.about-section {
+  margin: 1rem 0 1rem 0;
+  padding: 1rem 0 1rem 0;
+  color: black;
+  font-family: "Helvetica", sans-serif, monospace ;
+  font-weight: normal;
+  font-size:  1.4rem;
+}
+
+.stmt {
+  font-size: 1.08rem;
+}
+
+.section-heading {
+  color: #a00;
+  font-weight: normal;
+  font-size: 1.2rem;
+  font-family: monospace;
+}
+
+.about .skills div {
+  word-spacing: 2rem;
+}
+
+.skill-elements {
+}
+
+.skill-elements span:hover {
+  color: #b00;
+  font-size:  1.8rem;
+}
+
+.about .skill span{
+}
+
+
+.column-25 {
+  float: left;
+  width: 100%;
+}
+.column-50 {
+  float: left;
+  width: 100%;
+}
+.column-75 {
+  float: left;
+  width: 100%;
+}
+.row {
+    margin-top: 30px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 580px) {
+  .column-25 {
+    width: 25%;
+  }
+  .column-50 {
+    width: 50%;
+  }
+  .column-75 {
+    width: 75%;
+  }
+}
+
+.edu-college{
+}
+
+.edu-degree{
+  font-size:  1rem;
+  margin-top: -0.5rem;
+  padding-top: -0.5rem;
+}
+
+.contact-email {
+  font-family: sans-serif, monospace ;
+  font-size:  1.4rem;
+}
+
+.project-list a{
+  color: #a00;
+}
+
+.project-list a:hover{
+  color: #f00;
+  text-decoration: none;
+}
