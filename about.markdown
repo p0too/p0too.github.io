@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="about-section stmt">
 	<p>
-		Hi! My name is **p0too**. Self-motivated Computer Engineering graduate seeking a Software Engineer/ Developer position to utilize my programming, technical and analytical skills and knowledge.
+		Hi! My name is <stron>p0too</stron>. Self-motivated Computer Engineering graduate seeking a Software Engineer/ Developer position to utilize my programming, technical and analytical skills and knowledge.
 	</p>
 </div>
 
